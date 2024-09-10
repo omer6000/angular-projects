@@ -39,7 +39,7 @@ The course covers essential Angular concepts and the latest features in **Angula
 
 ### 7. **Authentication**
    - Managing **token-based authentication** to secure different parts of the application.
-   - Protecting routes and managing sessions with **route guards** and tokens for access control.
+   - Protecting routes and managing sessions with **Auth guards** and tokens for access control.
 
 ### 8. **State Management with NgRx**
    - Implementing state management using **NgRx** for managing state changes across the application.
@@ -55,4 +55,20 @@ To explore the projects:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:omer6000/angular-projects.git
+
+2. Navigate to the project folder
+   ```bash
+   cd <project-directory>
+
+3. Install the dependencies:
+   ```bash
+   npm install
+
+4. Run the application:
+   ```bash
+   npm start
+
+5. Open the application in your browser:
+   ```bash
+   http://localhost:4200
