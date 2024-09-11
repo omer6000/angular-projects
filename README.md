@@ -46,9 +46,6 @@ The course covers essential Angular concepts and the latest features in **Angula
    - Handling **complex state management** efficiently across different components to maintain a consistent UI.
    - Using **selectors** and **reducers** to manage and retrieve specific parts of the application’s state efficiently.
 
-### 9. **Optimizing Angular Applications**
-   - Utilizing **lazy loading** to reduce the initial load time of the application by loading modules only when needed.
-
 ## 🔧 Project Setup
 
 To explore the projects:
