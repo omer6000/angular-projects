@@ -1,27 +1,41 @@
-# TasksList
+# 📝 TasksList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+Welcome to the **TasksList** mini project! This project is a simple yet effective task management app where you can create tasks, track their progress, and update their status. It was designed to help me practice key Angular concepts, such as **services** and **dependency injection**, which are essential to developing scalable applications.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+- **Create Tasks**: Add new tasks to your list effortlessly.
+- **Update Task Status**: Track your progress by updating the status of each task as you work through them.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project focuses on practicing:
+- 📦 **Angular Services**: Understanding how to create and inject services across components.
+- 🧩 **Dependency Injection**: Exploring how Angular's DI system helps manage and share data throughout the app.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Getting Started
 
-## Running unit tests
+### Install Dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Before starting the app, make sure to install the necessary dependencies:
 
-## Running end-to-end tests
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Development Server
 
-## Further help
+1. Run `npm start` to start the development server.
+2. Navigate to `http://localhost:4200/` to view the app in action.
+3. The app will automatically reload when you modify any source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 📄 Code Scaffolding
+
+Need to add more features? Run the following command to generate new components, services, or modules:
+
+```bash
+ng generate component component-name

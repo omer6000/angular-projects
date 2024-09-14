@@ -1,27 +1,58 @@
-# ServerManagement
+# 🖥️ Server Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+Welcome to the **Server Management** project! It was designed to practice key Angular features and deepen understanding of how various elements interact within a real-world application.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📝 Features
 
-## Code scaffolding
+- **Server Status Display**: Dynamically show the status of the server.
+- **Traffic Overview**: Display a visual summary of server traffic over the last 7 days using charts.
+- **Support Tickets**: Allow users to submit support tickets by entering a title and request details in a form.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project focuses on practicing:
+- **Form Submission**: Allow users to input server details or submit support tickets.
+- **Content Projection**: Implement content projection to enable flexible and reusable component designs.
+- **Attribute Selection**: Practice selecting and applying attributes dynamically in the components.
+- **Lifecycle Interfaces**: Explore how Angular lifecycle hooks are used to monitor and act on component changes.
+- **Signal Effects**: Apply signal effects to manage asynchronous actions and events in the app.
+- **Template Variables**: Use template variables for cleaner, more manageable markup.
+- **Dynamic CSS Binding**: Bind CSS styles dynamically based on server status and other factors.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 UI Layout
 
-## Running unit tests
+The user interface is divided into three main sections:
+1. **Server Status Panel**: Displays the current server status, along with error messages if the status cannot be fetched.
+2. **Traffic Panel**: A visual bar chart displays traffic data for the last 7 days, offering an overview of server usage.
+3. **Support Tickets Panel**: Users can submit support tickets by filling out a form with the title and request details, followed by a 'Submit' button to send the request.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The layout is designed to provide clear visual feedback to the user while keeping the interface clean and easy to navigate.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠️ Getting Started
 
-## Further help
+### Install Dependencies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Before starting the app, make sure to install the necessary dependencies:
+
+```bash
+npm install
+```
+
+### Development Server
+
+1. Run `npm start` to start the development server.
+2. Navigate to `http://localhost:4200/` to view the app in action.
+3. The app will automatically reload when you modify any source files.
+
+---
+
+## 📄 Code Scaffolding
+
+Need to add more features? Run the following command to generate new components, services, or modules:
+
+```bash
+ng generate component component-name

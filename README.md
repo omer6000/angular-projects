@@ -41,11 +41,6 @@ The course covers essential Angular concepts and the latest features in **Angula
    - Managing **token-based authentication** to secure different parts of the application.
    - Protecting routes and managing sessions with **Auth guards** and tokens for access control.
 
-### 8. **State Management with NgRx**
-   - Implementing state management using **NgRx** for managing state changes across the application.
-   - Handling **complex state management** efficiently across different components to maintain a consistent UI.
-   - Using **selectors** and **reducers** to manage and retrieve specific parts of the application’s state efficiently.
-
 ## 🔧 Project Setup
 
 To explore the projects:

@@ -1,27 +1,65 @@
-# PlacePicker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+# 🌍 Place Picker
 
-## Development server
+Welcome to the **Place Picker** project! This application was created to practice HTTP concepts like **GET**, **PUT**, and **DELETE**. The app allows users to fetch images from the backend, add them to favorites, and remove them as well. It consists of both a backend server and an Angular frontend, with the backend handling image data and the frontend providing a user interface to manage the images.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📝 Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Fetch Images**: Retrieve images from the backend server using HTTP GET requests.
+- **Add to Favorites**: Users can add images to their favorites list, which is managed via HTTP PUT requests.
+- **Remove from Favorites**: Easily remove images from the favorites list using HTTP DELETE requests.
+- **Error Handling**: Handle HTTP response errors gracefully, ensuring that users receive clear feedback when something goes wrong.
+- **Optimistic Updates**: The app uses **signals** and **services** to implement optimistic updates, providing instant feedback to users when they perform actions like adding or removing images from favorites.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Getting Started
 
-## Running unit tests
+### Running the Backend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The backend folder is located inside the Angular app. Before starting the frontend, follow these steps to run the backend server:
 
-## Running end-to-end tests
+1. Navigate to the `backend` folder inside the Angular app:
+   ```bash
+   cd backend
+   ```
+2. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the backend server:
+   ```bash
+   npm start
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Running the Frontend
 
-## Further help
+Once the backend is running, you can start the Angular frontend:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Navigate back to the Angular app's root folder (if necessary):
+   ```bash
+   cd ../
+   ```
+2. Install the necessary dependencies for the Angular app:
+   ```bash
+   npm install
+   ```
+3. Start the Angular development server:
+   ```bash
+   npm start
+   ```
+4. Navigate to `http://localhost:4200/` to view the app in action.
+
+---
+
+## 📄 Code Scaffolding
+
+Need to add more features or modify the app? Use Angular CLI to generate new components, services, or modules:
+
+```bash
+ng generate component component-name
+```
+
+Or use the `ng generate` command for other building blocks like services, directives, and more.

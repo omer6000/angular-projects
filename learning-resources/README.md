@@ -1,27 +1,62 @@
-# LearningResources
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+# 📚 Learning Resources
 
-## Development server
+Welcome to the **Learning Resources** project! This application is designed to practice **directives** and **custom directives** in Angular. It uses **attribute directives** to change the behavior of elements based on the user's role. The content displayed is different for each role (Admin, User, Guest), but no role has more content than another—it's purely for practice purposes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📝 Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Directives and Custom Directives**: Practice using Angular directives to modify element behavior dynamically.
+- **Role-based Content Display**: Content changes based on the user’s role. The roles are determined by logging in with specific credentials.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🔐 User Roles & Credentials
 
-## Running unit tests
+The following are the possible roles and corresponding credentials for logging in:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Admin**
+   - Email: `admin@example.com`
+   - Password: `admin`
+   - Role: Admin
+   - Content: Different content displayed for this role.
+2. **User**
+   - Email: `user@example.com`
+   - Password: `user`
+   - Role: User
+   - Content: Different content displayed for this role.
 
-## Running end-to-end tests
+3. **Guest**
+   - Default role if no valid credentials are entered.
+   - Content: Different content displayed for this role.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🛠️ Getting Started
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Install Dependencies
+
+Before starting the app, install the necessary dependencies:
+
+```bash
+npm install
+```
+
+### Development Server
+
+1. Run `ng serve` to start the development server.
+2. Navigate to `http://localhost:4200/` to view the app.
+3. The app will automatically reload if you change any of the source files.
+
+---
+
+## 📄 Code Scaffolding
+
+Need to add more features or modify the app? Use Angular CLI to generate new components, services, or modules:
+
+```bash
+ng generate component component-name
+```
+
+Or use the `ng generate` command for other building blocks like services, directives, and more.
