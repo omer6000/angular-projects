@@ -15,7 +15,7 @@ The course covers essential Angular concepts and the latest features in **Angula
    - Implementing **content projection** to create flexible and reusable components.
 
 ### 2. **Directives**
-   - Working with **built-in directives** like `ngModel` and `ngClass` to control rendering and behavior of the DOM.
+   - Working with **built-in directives** like `ngFor` and `ngIf` to control rendering and behavior of the DOM.
    - Creating **custom directives** to extend the capabilities of HTML elements.
 
 ### 3. **Services & Dependency Injection**

@@ -1,0 +1,13 @@
+<app-places-container title="Your Favorite Places">
+  @if (CurrentlyFetching() && !error()) {
+  <h3 class="fallback-text">Loading...</h3>
+  }
+  @else if(error()) {
+    <h3 class="fallback-text">Backend is not Running</h3>
+  }
+  @if (places()) {
+  <app-places [places]="places()!" (selectPlace)="onRemovePlace($event)"/>
+  } @else if (places().length === 0) {
+  <p class="fallback-text">Unfortunately, no places could be found.</p>
+  }
+</app-places-container>
