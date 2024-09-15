@@ -37,10 +37,6 @@ The course covers essential Angular concepts and the latest features in **Angula
    - Sending **HTTP requests** (GET, POST, PUT, DELETE) using Angular's `HttpClient` to interact with **REST APIs**.
    - Handling **error responses**, managing data streams, and using interceptors to modify HTTP requests globally.
 
-### 7. **Authentication**
-   - Managing **token-based authentication** to secure different parts of the application.
-   - Protecting routes and managing sessions with **Auth guards** and tokens for access control.
-
 ## 🔧 Project Setup
 
 To explore the projects:
